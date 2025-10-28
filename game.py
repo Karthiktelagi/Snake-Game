@@ -13,7 +13,7 @@ FPS = 12
 
 # Colors
 BLACK = (0, 0, 0)
-WHITE = (255, 255, 255)
+RED = (255, 0, 0)
 GREEN = (0,255,0)
 
 # Directions
@@ -61,7 +61,7 @@ class Snake:
 class Fruit:
     def __init__(self):
         self.position = (0, 0)
-        self.color = WHITE
+        self.color = RED
         self.randomize_position()
 
     def randomize_position(self):
